@@ -1,4 +1,0 @@
-mytodo
-======
-
-My TODO App
