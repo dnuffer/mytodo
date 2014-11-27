@@ -5,7 +5,8 @@ Template.newTask.events({
 
     var task = {
       text: $(e.target).find('[name=text]').val(),
-      checked: false
+      checked: false,
+      dueDate: new Date()
     };
 
     Meteor.call("addTask", task, function(error, result) {
